@@ -1,6 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/bar
+    username: xxxx
+    password: xxxx
   jackson:
     serialization:
       write-dates-as-timestamps: false
