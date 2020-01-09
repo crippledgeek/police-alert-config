@@ -2,7 +2,7 @@ spring:
   jpa:
     database: postgresql
   datasource:
-    url: jdbc:postgresql://localhost:5532/bar
+    url: jdbc:postgresql://localhost:5532/alerts
     username: xxxx
     password: xxxx
     driver-class-name: org.postgresql.Driver
