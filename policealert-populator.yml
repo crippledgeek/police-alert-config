@@ -1,6 +1,9 @@
 spring:
   jpa:
+    hibernate:
+      ddl-auto: create-drop
     database: postgresql
+    generate-ddl: true
   datasource:
     url: jdbc:postgresql://localhost:5532/alerts
     username: xxxx
