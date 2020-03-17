@@ -19,3 +19,6 @@ spring:
 logging:
   level:
     org.hibernate.SQL: trace
+
+
+url: https://polisen.se/api/events
