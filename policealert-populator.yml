@@ -8,6 +8,8 @@ spring:
       ddl-auto: create-drop
     database: postgresql
     generate-ddl: true
+    properties:
+      hibernate.generate_statistics: true
   datasource:
     url: jdbc:postgresql://localhost:5532/alerts
     username: xxxx
