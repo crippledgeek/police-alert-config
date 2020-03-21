@@ -22,8 +22,8 @@ spring:
       write-dates-as-timestamps: false
 logging:
   level:
-    - org.hibernate.SQL: trace
-    - org.hibernate.type.descriptor.sql: trace
+    org.hibernate.SQL: trace
+    org.hibernate.type.descriptor.sql: trace
 
 
 url: https://polisen.se/api/events
