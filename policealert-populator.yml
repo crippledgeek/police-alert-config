@@ -5,9 +5,9 @@ spring:
         enabled: false
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: validate
     database: postgresql
-    generate-ddl: true
+    generate-ddl: false
     properties:
       hibernate.generate_statistics: true
   datasource:
