@@ -3,3 +3,15 @@ spring:
     loadbalancer:
       ribbon:
         enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database: postgresql
+    generate-ddl: false
+    properties:
+      hibernate.generate_statistics: true
+    datasource:
+      url: jdbc:postgresql://localhost:5532/alerts
+      username: xxxx
+      password: xxxx
+      driver-class-name: org.postgresql
