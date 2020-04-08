@@ -10,7 +10,7 @@ spring:
     generate-ddl: false
     properties:
       hibernate.generate_statistics: true
-    datasource:
+  datasource:
       url: jdbc:postgresql://localhost:5532/alerts
       username: xxxx
       password: xxxx
