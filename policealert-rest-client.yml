@@ -14,4 +14,4 @@ spring:
       url: jdbc:postgresql://localhost:5532/alerts
       username: xxxx
       password: xxxx
-      driver-class-name: org.postgresql.DriverK
+      driver-class-name: org.postgresql.Driver
