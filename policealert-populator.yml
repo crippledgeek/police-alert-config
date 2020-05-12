@@ -7,7 +7,7 @@ spring:
         enabled: false
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: create-drop
     database: postgresql
     generate-ddl: false
     properties:
